@@ -6,7 +6,7 @@ from fastapi import FastAPI, HTTPException, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
 
 ALLOWED_ORIGIN = "https://dash-tbya4f.example.com"
-EMAIL = os.environ.get("EMAIL", "businessmakers662@gmail.com")
+EMAIL = os.environ.get("EMAIL", "24f3004648@ds.study.iitm.ac.in")
 
 app = FastAPI()
 
